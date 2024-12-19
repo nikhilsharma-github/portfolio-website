@@ -1,0 +1,9 @@
+1. Changing the background from tailwind snippet.
+2. Adding more icons on navbar and download resume button.
+3. Change the Logo.
+4. Change the text of homepage.
+5. Change the Colors and Fonts.
+6. Change the Color of Technology Icons, also add the Techname below it.
+7. Using Framer Motion in a better way on the Project.
+8. Adding the same navbar to the end as well.
+9. Improvising the Coloring and Font.
