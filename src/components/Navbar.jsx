@@ -11,7 +11,7 @@ const Navbar = () => {
                 <img className="mx-2 w-12" src={logo} alt="" />
             </div>
             <div className="m-4 flex items-center justify-center lg:gap-4 gap-1 text-5xl">
-                <span className="download-resume-btn text-xl text-amber-200 border-b-2 border-transparent transition-all duration-300 hover:border-b-2 hover:border-amber-600 p-3 rounded-xl cursor-pointer hover:scale-110">
+                <span className="custom-font-1 text-xl text-amber-200 border-b-2 border-transparent transition-all duration-300 hover:border-b-2 hover:border-amber-600 p-3 rounded-xl cursor-pointer hover:scale-110">
                     Download Resume
                 </span>
                 <a

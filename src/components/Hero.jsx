@@ -22,7 +22,7 @@ const Hero = () => {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+                            className=" pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl text-amber-300"
                         >
                             Nikhil Sharma
                         </motion.h1>
@@ -30,7 +30,7 @@ const Hero = () => {
                             variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
-                            className="bg-gradient-to-r from-pink-300 via-slate-500 to bg-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
+                            className="custom-font-3 bg-gradient-to-r from-red-500 via-slate-500 to bg-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-2"
                         >
                             Full Stack Developer
                         </motion.span>

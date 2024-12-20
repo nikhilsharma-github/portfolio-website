@@ -1,7 +1,5 @@
 import React from "react";
-import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
+import { IoLogoTableau } from "react-icons/io5";
 import { motion } from "motion/react";
 
 const iconVariants = (duration) => ({
@@ -35,22 +33,272 @@ const Technologies = () => {
                 className="flex flex-wrap items-center justify-center gap-4"
             >
                 <motion.div
-                    variants={iconVariants(2.5)}
+                    variants={iconVariants(1)}
                     initial="initial"
                     animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <RiReactjsLine className="text-7xl text-cyan-400"></RiReactjsLine>
+                    <i className="devicon-react-original colored tech-icon"></i>
                 </motion.div>
-                <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiMongodb className="text-7xl text-cyan-400"></SiMongodb>
-                </div>
-                <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaNodeJs className="text-7xl text-cyan-400"></FaNodeJs>
-                </div>
+                <motion.div
+                    variants={iconVariants(1.1)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i className="devicon-redux-original colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.2)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i className="devicon-jquery-plain-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.3)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i className="devicon-bootstrap-plain-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.4)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i className="devicon-tailwindcss-original colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.5)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i className="devicon-materialui-plain colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.4)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-plain.svg"
+                        className="tech-icon-svg"
+                    />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.3)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+                        className="tech-icon-svg"
+                    />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.2)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
+                        className="tech-icon-svg"
+                    />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.1)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+                        className="tech-icon-svg"
+                    />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.2)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                        className="tech-icon-svg"
+                    />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.8)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i className="devicon-flask-original-wordmark tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.3)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i className="devicon-nodejs-plain-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.5)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i className="devicon-express-original-wordmark tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.7)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i class="devicon-firebase-plain colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i class="devicon-mysql-plain-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.4)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i class="devicon-mongodb-plain-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.3)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i class="devicon-microsoftsqlserver-plain-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.2)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i class="devicon-oracle-original colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.4)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i className="devicon-git-plain-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.5)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i className="devicon-github-original-wordmark tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.3)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i class="devicon-bitbucket-original-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.2)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i class="devicon-jira-plain-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.6)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i class="devicon-postman-plain colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.2)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i class="devicon-redhat-plain-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.3)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i class="devicon-vscode-plain-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.2)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i class="devicon-jupyter-plain-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.8)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i class="devicon-googlecloud-plain-wordmark colored tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.6)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <i className="devicon-vercel-original-wordmark tech-icon"></i>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(1.4)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-2"
+                >
+                    <IoLogoTableau className="tech-icon" />
+                </motion.div>
             </motion.div>
         </div>
     );
 };
 
 export default Technologies;
+
+// Technolgies:
+// Programming Languages: C, C++, Java, Python, JavaScript, Typescript, SQL
+// Front-end Tech: React.js, ReduxToolkit, Next.js, jQuery, Bootstrap, Tailwind, MaterialUI, Ant Design, Formik, TanstackTable
+// Back-end Tech: Flask, Node.js, Express.js, RESTful APIs, Firebase
+// Databases: MySQL, MongoDB, MS SQL Server, Oracle DB
+// Core Subjects: Data Structures and Algorithms, Object Oriented Programming Concepts, Operating System, Computer Networks
+// Tools: Git, Github, Bigbucket, JIRA, Postman, VSCode, React Bundlers, Redhat Openshift, JupyterNotebook, Tableau,
+// GoogleCloudPlatform, Vercel, Agile(Scrum, Kanban)
