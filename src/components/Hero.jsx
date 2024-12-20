@@ -1,6 +1,6 @@
 import React from "react";
-import { HERO_CONTENT } from "../constants/index.js";
-import profilePic from "../assets/PortfolioProfile.png";
+import { HERO_CONTENT } from "../constants/content.js";
+import profilePic from "../../public/img/AboutProfile.jpg";
 import { motion } from "motion/react";
 
 const container = (delay) => ({
@@ -22,7 +22,9 @@ const Hero = () => {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className=" pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl text-amber-300"
+                            className=" pb-16 text-6xl font-thin lg:mt-16 lg:text-8xl custom-font-4 
+                            bg-gradient-to-r from-amber-500  bg-slate-100 bg-clip-text  text-transparent p-1
+                            "
                         >
                             Nikhil Sharma
                         </motion.h1>

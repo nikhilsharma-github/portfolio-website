@@ -15,6 +15,12 @@ const iconVariants = (duration) => ({
     },
 });
 
+const mintime=3, maxtime=4;
+function getRandomNumber(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
+
 const Technologies = () => {
     return (
         <div className="border-b border-neutral-800 pb-24">
@@ -33,7 +39,7 @@ const Technologies = () => {
                 className="flex flex-wrap items-center justify-center gap-4"
             >
                 <motion.div
-                    variants={iconVariants(1)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -41,7 +47,7 @@ const Technologies = () => {
                     <i className="devicon-react-original colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.1)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -49,7 +55,7 @@ const Technologies = () => {
                     <i className="devicon-redux-original colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.2)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -57,7 +63,7 @@ const Technologies = () => {
                     <i className="devicon-jquery-plain-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.3)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -65,7 +71,7 @@ const Technologies = () => {
                     <i className="devicon-bootstrap-plain-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.4)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -73,7 +79,7 @@ const Technologies = () => {
                     <i className="devicon-tailwindcss-original colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.5)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -81,7 +87,7 @@ const Technologies = () => {
                     <i className="devicon-materialui-plain colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.4)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -92,7 +98,7 @@ const Technologies = () => {
                     />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.3)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -103,7 +109,7 @@ const Technologies = () => {
                     />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.2)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -114,7 +120,7 @@ const Technologies = () => {
                     />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.1)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -125,7 +131,7 @@ const Technologies = () => {
                     />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.2)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -136,7 +142,7 @@ const Technologies = () => {
                     />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.8)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -144,7 +150,7 @@ const Technologies = () => {
                     <i className="devicon-flask-original-wordmark tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.3)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -152,7 +158,7 @@ const Technologies = () => {
                     <i className="devicon-nodejs-plain-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.5)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -160,47 +166,47 @@ const Technologies = () => {
                     <i className="devicon-express-original-wordmark tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.7)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <i class="devicon-firebase-plain colored tech-icon"></i>
+                    <i className="devicon-firebase-plain colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <i class="devicon-mysql-plain-wordmark colored tech-icon"></i>
+                    <i className="devicon-mysql-plain-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.4)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <i class="devicon-mongodb-plain-wordmark colored tech-icon"></i>
+                    <i className="devicon-mongodb-plain-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.3)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <i class="devicon-microsoftsqlserver-plain-wordmark colored tech-icon"></i>
+                    <i className="devicon-microsoftsqlserver-plain-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.2)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <i class="devicon-oracle-original colored tech-icon"></i>
+                    <i className="devicon-oracle-original colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.4)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -208,7 +214,7 @@ const Technologies = () => {
                     <i className="devicon-git-plain-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.5)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -216,63 +222,63 @@ const Technologies = () => {
                     <i className="devicon-github-original-wordmark tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.3)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <i class="devicon-bitbucket-original-wordmark colored tech-icon"></i>
+                    <i className="devicon-bitbucket-original-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.2)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <i class="devicon-jira-plain-wordmark colored tech-icon"></i>
+                    <i className="devicon-jira-plain-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.6)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <i class="devicon-postman-plain colored tech-icon"></i>
+                    <i className="devicon-postman-plain colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.2)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <i class="devicon-redhat-plain-wordmark colored tech-icon"></i>
+                    <i className="devicon-redhat-plain-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.3)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <i class="devicon-vscode-plain-wordmark colored tech-icon"></i>
+                    <i className="devicon-vscode-plain-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.2)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <i class="devicon-jupyter-plain-wordmark colored tech-icon"></i>
+                    <i className="devicon-jupyter-plain-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.8)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
                 >
-                    <i class="devicon-googlecloud-plain-wordmark colored tech-icon"></i>
+                    <i className="devicon-googlecloud-plain-wordmark colored tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.6)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"
@@ -280,7 +286,7 @@ const Technologies = () => {
                     <i className="devicon-vercel-original-wordmark tech-icon"></i>
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(1.4)}
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
                     className="rounded-xl border-2 border-zinc-500 p-2"

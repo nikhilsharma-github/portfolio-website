@@ -1,5 +1,5 @@
 import React from "react";
-import { PROJECTS } from "../constants";
+import { PROJECTS } from "../constants/content.js";
 import { motion } from "motion/react";
 
 const Projects = () => {

@@ -1,6 +1,6 @@
 import React from "react";
-import aboutImg from "../assets/about.jpg";
-import { ABOUT_TEXT } from "../constants";
+import aboutImg from "../../public/img/AboutProfile.jpg";
+import { ABOUT_TEXT } from "../constants/content.js";
 import { motion } from "motion/react";
 
 
@@ -19,7 +19,7 @@ const About = () => {
                 className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex items-center justify-center">
                         <img
-                            className="rounded-2xl"
+                            className="rounded-2xl w-96 h-96"
                             src={aboutImg}
                             alt="about"
                         />

@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../../public/img/project-1.jpg";
 
 export const HERO_CONTENT = `I am a passionate Full stack developer currently working in TCS Digital from past 1 year.`;
 

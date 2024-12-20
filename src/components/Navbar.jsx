@@ -1,17 +1,30 @@
 import React from "react";
-import logo from "../assets/PortfolioLogo.png";
+import logo from "../../public/img/PortfolioLogo.png";
 import { RiLinkedinBoxLine } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
 const Navbar = () => {
+    const handleDownload = () => {
+        const link = document.createElement("a");
+        link.href = "../../public/NikhilSharma_Resume_21122024.pdf"; 
+        link.download = "NikhilSharma_Resume.pdf"; 
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <nav className="mb-20 flex justify-between py-4">
             <div className="flex flex-shrink-0 items-center cursor-pointer  border-b-2 border-transparent transition-all duration-300 hover:border-b-2 hover:border-amber-600 p-3 rounded-xl hover:scale-110">
                 <img className="mx-2 w-12" src={logo} alt="" />
             </div>
             <div className="m-4 flex items-center justify-center lg:gap-4 gap-1 text-5xl">
-                <span className="custom-font-1 text-xl text-amber-200 border-b-2 border-transparent transition-all duration-300 hover:border-b-2 hover:border-amber-600 p-3 rounded-xl cursor-pointer hover:scale-110">
+                <span
+                    className="custom-font-1 text-xl text-amber-200 border-b-2 border-transparent transition-all duration-300 hover:border-b-2 hover:border-amber-600 p-3 rounded-xl cursor-pointer hover:scale-110"
+                    id="download-resume-btn"
+                    onClick={handleDownload}
+                >
                     Download Resume
                 </span>
                 <a

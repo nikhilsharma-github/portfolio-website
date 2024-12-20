@@ -1,5 +1,5 @@
 import React from "react";
-import { EXPERIENCES } from "../constants/index.js";
+import { EXPERIENCES } from "../constants/content.js";
 import { motion } from "motion/react";
 
 const Experience = () => {
