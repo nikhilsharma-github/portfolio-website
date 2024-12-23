@@ -7,9 +7,9 @@ import { motion } from "motion/react";
 const About = () => {
     return (
         <div className="border-b border-neutral-900 pb-4">
-            <h1 className="my-20 text-center text-4xl">
+            <h1 className="my-20 text-center text-4xl text-amber-400">
                 About
-                <span className="text-neutral-500">Me</span>
+                <span className="text-slate-200">Me</span>
             </h1>
             <div className="flex flex-wrap">
                 <motion.div
