@@ -18,11 +18,17 @@ const Hero = () => {
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col items-center lg:items-start">
+                        <p
+                            className="pb-2 text-sm font-thin custom-font-1 
+                            bg-gradient-to-r from-amber-500  bg-slate-100 bg-clip-text  text-transparent p-1"
+                        >
+                            Hi Everyone, welcome to my Portfolio
+                        </p>
                         <motion.h1
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className=" pb-16 text-6xl font-thin lg:mt-16 lg:text-8xl custom-font-4 
+                            className="pb-16 text-6xl font-thin lg:mt-16 lg:text-8xl custom-font-4 
                             bg-gradient-to-r from-amber-500  bg-slate-100 bg-clip-text  text-transparent p-1
                             "
                         >
@@ -32,7 +38,7 @@ const Hero = () => {
                             variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
-                            className="custom-font-3 bg-gradient-to-r from-red-500 via-slate-500 to bg-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-2"
+                            className="custom-font-1 bg-gradient-to-r from-red-500 via-slate-500 to bg-purple-500 bg-clip-text text-4xl tracking-tight text-transparent mb-2"
                         >
                             Full Stack Developer
                         </motion.span>
