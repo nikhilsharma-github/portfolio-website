@@ -26,7 +26,7 @@ const Experience = () => {
                             transition={{ duration: 1 }}
                             className="w-full lg:w-1/4"
                         >
-                            <p className="mb-2 text-sm text-neutral-400">
+                            <p className="mb-2 text-md text-slate-100">
                                 <span className="">{experience.year}</span>
                             </p>
                         </motion.div>
@@ -36,29 +36,29 @@ const Experience = () => {
                             transition={{ duration: 1 }}
                             className="w-full max-w-xl lg:w-3/4"
                         >
-                            <h6 className="mb-2 font-semibold">
+                            <h6 className="mb-2 font-semibold text-blue-500 text-lg">
                                 {experience.role} -{" "}
-                                <span className="text-sm text-purple-100">
+                                <span className="text-lg bg-gradient-to-r from-amber-600 via-red-500 to bg-purple-500 bg-clip-text tracking-tight text-transparent mb-2">
                                     {experience.company}
                                 </span>
                             </h6>
-                            <p className="mb-4 text-neutral-400">
-                                <ul>
-                                    {experience.description.map(
-                                        (desc, index) => (
-                                            <li>{desc}</li>
-                                        )
-                                    )}
-                                </ul>
-                            </p>
-                            {experience.technologies.map((tech, index) => (
-                                <span
-                                    key={index}
-                                    className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-amber-600"
-                                >
-                                    {tech}
-                                </span>
-                            ))}
+                            <ul className="mb-4 text-neutral-400">
+                                {experience.description.map((desc, index) => (
+                                    <li key={index} className="list-disc">
+                                        {desc}
+                                    </li>
+                                ))}
+                            </ul>
+                            <div className="h-20">
+                                {experience.technologies.map((tech, index) => (
+                                    <span
+                                        key={index}
+                                        className="inline-flex flex-row  px-2 py-1 m-1 rounded bg-neutral-900 text-sm font-medium text-amber-600"
+                                    >
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
                         </motion.div>
                     </div>
                 ))}

@@ -28,7 +28,7 @@ const Hero = () => {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className="pb-16 text-6xl font-thin lg:mt-16 lg:text-8xl custom-font-4 
+                            className="pb-16 text-4xl sm:text-5xl md:text-6xl font-thin lg:mt-16 lg:text-8xl custom-font-4 
                             bg-gradient-to-r from-amber-500  bg-slate-100 bg-clip-text  text-transparent p-1
                             "
                         >
@@ -38,7 +38,7 @@ const Hero = () => {
                             variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
-                            className="custom-font-1 bg-gradient-to-r from-red-500 via-slate-500 to bg-purple-500 bg-clip-text text-4xl tracking-tight text-transparent mb-2"
+                            className="custom-font-1 bg-gradient-to-r from-red-500 via-slate-500 to bg-purple-500 bg-clip-text text-xl md:text-4xl tracking-tight text-transparent mb-2"
                         >
                             Full Stack Developer
                         </motion.span>
@@ -46,6 +46,7 @@ const Hero = () => {
                             variants={container(1)}
                             initial="hidden"
                             animate="visible"
+                            className="text-xs sm:text-lg mb-8"
                         >
                             {HERO_CONTENT}
                         </motion.p>
@@ -59,8 +60,7 @@ const Hero = () => {
                             transition={{ duration: 1, delay: 1.2 }}
                             src={profilePic}
                             alt="ProfilePic"
-                            width="300"
-                            className="rounded-3xl"
+                            className="rounded-3xl w-60 md:w-72"
                         />
                     </div>
                 </div>

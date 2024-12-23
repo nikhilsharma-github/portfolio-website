@@ -36,13 +36,13 @@ const Technologies = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }}
-                className="flex flex-wrap items-center justify-center gap-4"
+                className="flex flex-wrap items-center justify-center gap-3 md:gap-4"
             >
                 <motion.div
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-react-original colored tech-icon"></i>
                 </motion.div>
@@ -50,7 +50,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-redux-original colored tech-icon"></i>
                 </motion.div>
@@ -58,7 +58,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-jquery-plain-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -66,7 +66,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-bootstrap-plain-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -74,7 +74,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-tailwindcss-original colored tech-icon"></i>
                 </motion.div>
@@ -82,7 +82,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-materialui-plain colored tech-icon"></i>
                 </motion.div>
@@ -90,7 +90,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-plain.svg"
@@ -101,7 +101,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
@@ -112,7 +112,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
@@ -123,7 +123,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
@@ -134,7 +134,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
@@ -145,7 +145,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-flask-original-wordmark tech-icon"></i>
                 </motion.div>
@@ -153,7 +153,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-nodejs-plain-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -161,7 +161,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-express-original-wordmark tech-icon"></i>
                 </motion.div>
@@ -169,7 +169,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-firebase-plain colored tech-icon"></i>
                 </motion.div>
@@ -177,7 +177,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-mysql-plain-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -185,7 +185,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-mongodb-plain-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -193,7 +193,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-microsoftsqlserver-plain-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -201,7 +201,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-oracle-original colored tech-icon"></i>
                 </motion.div>
@@ -209,7 +209,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-git-plain-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -217,7 +217,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-github-original-wordmark tech-icon"></i>
                 </motion.div>
@@ -225,7 +225,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-bitbucket-original-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -233,7 +233,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-jira-plain-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -241,7 +241,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-postman-plain colored tech-icon"></i>
                 </motion.div>
@@ -249,7 +249,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-redhat-plain-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -257,7 +257,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-vscode-plain-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -265,7 +265,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-jupyter-plain-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -273,7 +273,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-googlecloud-plain-wordmark colored tech-icon"></i>
                 </motion.div>
@@ -281,7 +281,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <i className="devicon-vercel-original-wordmark tech-icon"></i>
                 </motion.div>
@@ -289,7 +289,7 @@ const Technologies = () => {
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}
                     initial="initial"
                     animate="animate"
-                    className="rounded-xl border-2 border-zinc-500 p-2"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
                 >
                     <IoLogoTableau className="tech-icon" />
                 </motion.div>

@@ -19,7 +19,7 @@ const About = () => {
                 className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex items-center justify-center">
                         <img
-                            className="rounded-2xl w-96 h-96"
+                            className="rounded-3xl w-60 md:w-72"
                             src={aboutImg}
                             alt="about"
                         />
@@ -32,7 +32,7 @@ const About = () => {
 
                 className="w-full lg:w-1/2">
                     <div className="flex justify-center lg:justify-start">
-                        <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+                        <p className="text-xs sm:text-lg my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
                     </div>
                 </motion.div>
             </div>
