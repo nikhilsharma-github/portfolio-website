@@ -38,7 +38,7 @@ const Hero = () => {
                             variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
-                            className="custom-font-1 bg-gradient-to-r from-red-500 via-slate-500 to bg-purple-500 bg-clip-text text-xl md:text-4xl tracking-tight text-transparent mb-2"
+                            className="custom-font-1 bg-gradient-to-r from-amber-500 via-slate-200 to bg-amber-500 bg-clip-text text-xl md:text-4xl tracking-tight text-transparent mb-2"
                         >
                             Full Stack Developer
                         </motion.span>
