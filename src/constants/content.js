@@ -14,13 +14,29 @@ export const EXPERIENCES = [
         role: "System Engineer",
         company: "Tata Consultancy Services",
         description: [
-            "Currently, working as a Full Stack Engineer in TCS Digital as a System Engineer in Hyderabad.",
-            "During My 1year+ professional journey, I have worked on technologies like ReactJS, JavaScript, jQuery, Flask, Oracle DB, MS SQL Server, Python, HTML, CSS, Bootstrap, Ant Design, Redhat OpenShift, etc. ",
-            "Now, I am looking for better Full Time Job Opportunities in the IT domain for job roles like Software Engineering, Software Development, Frontend Development, MERN Stack development, and more.",
-            "Meanwhile, I am improving my Problem-solving skills by regularly doing LeetCode and solved 500+ problems overall on the platform and improving my development skills by creating Personal projects in other technologies like MERN Stack.",
+            "Aided Frontend Enhancement using ReactJS, Bootstrap, AntDesign, Tanstack Table, developing API methods, writing logic in Backend, and improvising system performance and UI ",
+            " Created API endpoints, implemented functionalities like adding a drawer with DB and frontend validations using Ant Design and Formik, and handled major UI changes.",
+            "Developed RESTful APIs using Python and Flask, improving application performance by 40%, making existing implementations leaner, and supporting multiple concurrent users. ",
+            "Achieved a 25% reduction in loading time by implementing Flask caching, DB connection threading, and session storage.",
+            " Managed deployments with RedHat OpenShift and handled version control using Bitbucket. ",
+            "Also worked on Python Data Refresh scripts using Jupyter Notebook, updating Tableau Dashboards, etc",
+            "Tech Used: ReactJS, Javascript, jQuery, Flask, Oracle DB, MS SQL Server, Python, HTML, CSS, Bootstrap, Ant Design, Redhat Openshift, etc",
         ],
-        technologies: ["ReactJS", "JavaScript", "jQuery", "Flask", "Oracle DB", "MS SQL Server", "Python", "HTML", "CSS", "Bootstrap", "Ant Design", "Redhat OpenShift"],
-        company_logo: company1
+        technologies: [
+            "ReactJS",
+            "JavaScript",
+            "jQuery",
+            "Flask",
+            "Oracle DB",
+            "MS SQL Server",
+            "Python",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Ant Design",
+            "Redhat OpenShift",
+        ],
+        company_logo: company1,
     },
     {
         year: "July 2022 - Aug 2022",
@@ -30,23 +46,31 @@ export const EXPERIENCES = [
             "An Idea to Build a platform for student community discussions named UDF-USICT Discuss Forum using MERN stack.",
             "Incorporated Features like categorizing posts according to different topics, Adding Images, and Comments below on Posts.",
         ],
-        technologies: ["ReactJS", "MongoDB", "ExpressJS", "NodeJS", "MaterialUI"],
-        company_logo: company2
+        technologies: [
+            "ReactJS",
+            "MongoDB",
+            "ExpressJS",
+            "NodeJS",
+            "MaterialUI",
+        ],
+        company_logo: company2,
     },
 ];
 
 export const EDUCATION = [
     {
         title: "B.Tech in Computer Science Engineering.",
-        institute_name:"University School of Information and Communication Technology, GGSIPU, New Delhi.",
-        year:"Batch 2019 - 2023",
-        score:"CGPA: 8.8/10.0",
+        institute_name:
+            "University School of Information and Communication Technology, GGSIPU, New Delhi.",
+        year: "Batch 2019 - 2023",
+        score: "CGPA: 8.8/10.0",
     },
     {
         title: "Senior Secondary Education (Class XI - Class XII) - CBSE, Delhi.",
-        institute_name:"Rajkiya Pratibha Vikas Vidyalaya, Shalimar Bagh, New Delhi.",
-        year:"Batch 2017 - 2019",
-        score:"Class XII : 86%",
+        institute_name:
+            "Rajkiya Pratibha Vikas Vidyalaya, Shalimar Bagh, New Delhi.",
+        year: "Batch 2017 - 2019",
+        score: "Class XII : 86%",
     },
 ];
 
@@ -66,23 +90,24 @@ export const CERTIFICATIONS = [
         image: certificate1,
         description:
             "AWS Certified Cloud Practitioner (CLF-C02) is an entry-level certification that provides a foundational understanding of AWS cloud services.",
-        technologies: ["Amazon Web Services (AWS)","Cloud Computing"],
-        date:"Dec 2024 - Dec 2027",
-        credential_url:"https://www.credly.com/badges/4a086f4b-b2d5-49f3-8fdb-6ee1a9a2698b/public_url",
-        credential_id:"4a086f4b-b2d5-49f3-8fdb-6ee1a9a2698b"
+        technologies: ["Amazon Web Services (AWS)", "Cloud Computing"],
+        date: "Dec 2024 - Dec 2027",
+        credential_url:
+            "https://www.credly.com/badges/4a086f4b-b2d5-49f3-8fdb-6ee1a9a2698b/public_url",
+        credential_id: "4a086f4b-b2d5-49f3-8fdb-6ee1a9a2698b",
     },
     {
         title: "React Frontend Developer by Edureka",
         image: certificate2,
         description:
             "React Frontend Developer by Edureka is a certification that provides a foundational understanding of ReactJS. It was a one month live training program by Edureka for mastering ReactJS.",
-        technologies: ["ReactJS","Redux","Bootstrap","RESTful APIs"],
-        date:"Dec 2024",
-        credential_url:"https://www.edureka.co/lms/certificate/cce3864db1e5fa0de5f0c80a7684453c",
-        credential_id:"GMXB7D8MB"
+        technologies: ["ReactJS", "Redux", "Bootstrap", "RESTful APIs"],
+        date: "Dec 2024",
+        credential_url:
+            "https://www.edureka.co/lms/certificate/cce3864db1e5fa0de5f0c80a7684453c",
+        credential_id: "GMXB7D8MB",
     },
 ];
-
 
 export const CONTACT = {
     address: "North West Delhi, India",
