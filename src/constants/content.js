@@ -1,4 +1,6 @@
 import project1 from "../../public/img/project-1.jpg";
+import certificate1 from "../../public/img/certificate-1.png";
+import certificate2 from "../../public/img/certificate-2.png";
 
 export const HERO_CONTENT = `I am a passionate Full stack developer currently working in TCS Digital from past 1 year.`;
 
@@ -38,6 +40,30 @@ export const PROJECTS = [
         technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
     },
 ];
+
+export const CERTIFICATIONS = [
+    {
+        title: "AWS Certified Cloud Practitioner (CLF-C02)",
+        image: certificate1,
+        description:
+            "AWS Certified Cloud Practitioner (CLF-C02) is an entry-level certification that provides a foundational understanding of AWS cloud services.",
+        technologies: ["Amazon Web Services (AWS)","Cloud Computing"],
+        date:"Dec 2024 - Dec 2027",
+        credential_url:"https://www.credly.com/badges/4a086f4b-b2d5-49f3-8fdb-6ee1a9a2698b/public_url",
+        credential_id:"4a086f4b-b2d5-49f3-8fdb-6ee1a9a2698b"
+    },
+    {
+        title: "React Frontend Developer by Edureka",
+        image: certificate2,
+        description:
+            "React Frontend Developer by Edureka is a certification that provides a foundational understanding of ReactJS. It was a one month live training program by Edureka for mastering ReactJS.",
+        technologies: ["ReactJS","Redux","Bootstrap","RESTful APIs"],
+        date:"Dec 2024",
+        credential_url:"https://www.edureka.co/lms/certificate/cce3864db1e5fa0de5f0c80a7684453c",
+        credential_id:"GMXB7D8MB"
+    },
+];
+
 
 export const CONTACT = {
     address: "North West Delhi, India",
