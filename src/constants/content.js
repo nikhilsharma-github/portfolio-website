@@ -35,6 +35,21 @@ export const EXPERIENCES = [
     },
 ];
 
+export const EDUCATION = [
+    {
+        title: "B.Tech in Computer Science Engineering.",
+        institute_name:"University School of Information and Communication Technology, GGSIPU, New Delhi.",
+        year:"Batch 2019 - 2023",
+        score:"CGPA: 8.8/10.0",
+    },
+    {
+        title: "Senior Secondary Education (Class XI - Class XII) - CBSE, Delhi.",
+        institute_name:"Rajkiya Pratibha Vikas Vidyalaya, Shalimar Bagh, New Delhi.",
+        year:"Batch 2017 - 2019",
+        score:"Class XII : 86%",
+    },
+];
+
 export const PROJECTS = [
     {
         title: "Blogging Platform",

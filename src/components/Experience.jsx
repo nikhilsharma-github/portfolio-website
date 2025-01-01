@@ -2,6 +2,9 @@ import React from "react";
 import { EXPERIENCES } from "../constants/content.js";
 import { motion } from "motion/react";
 
+
+const companyNameCSS=["text-lg bg-gradient-to-r from-amber-600 via-red-500 to bg-purple-500 bg-clip-text tracking-tight text-transparent mb-2","text-lg bg-gradient-to-r from-cyan-500 via-white to bg-gray-500 bg-clip-text tracking-tight text-transparent mb-2"]
+
 const Experience = () => {
     return (
         <div className="border-b border-neutral-900 pb-4">
@@ -45,7 +48,7 @@ const Experience = () => {
                         >
                             <h6 className="mb-2 font-semibold text-blue-500 text-lg">
                                 {experience.role} -{" "}
-                                <span className="text-lg bg-gradient-to-r from-amber-600 via-red-500 to bg-purple-500 bg-clip-text tracking-tight text-transparent mb-2">
+                                <span className={companyNameCSS[index]}>
                                     {experience.company}
                                 </span>
                             </h6>
