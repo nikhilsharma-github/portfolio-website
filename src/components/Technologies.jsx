@@ -28,7 +28,7 @@ const Technologies = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 1.5 }}
-                className="my-20 text-center text-4xl text-amber-400"
+                className="my-16 text-center text-2xl md:text-3xl lg:text-4xl text-amber-400"
             >
                 Technologies
             </motion.h1>
@@ -36,7 +36,7 @@ const Technologies = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }}
-                className="flex flex-wrap items-center justify-center gap-3 md:gap-4"
+                className="flex flex-wrap items-center justify-center gap-2 md:gap-4"
             >
                 <motion.div
                     variants={iconVariants(getRandomNumber(mintime, maxtime))}

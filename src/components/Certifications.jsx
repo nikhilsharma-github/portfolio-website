@@ -9,7 +9,7 @@ const Certifications = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-20 text-center text-4xl text-amber-400"
+                className="my-16 text-center text-2xl md:text-3xl lg:text-4xl text-amber-400"
             >
                 Certifications
             </motion.h2>
@@ -32,13 +32,11 @@ const Certifications = () => {
                             >
                                 <img
                                     src={certificate.image}
-                                    width={150}
-                                    height={150}
                                     alt={certificate.title}
-                                    className="mb-6 rounded"
+                                    className="w-24 md:w-36 mb-6 rounded"
                                 />
                             </a>
-                            <p className="d-inline">{certificate.date}</p>
+                            <p className="d-inline text-xs md:text-lg">{certificate.date}</p>
                         </motion.div>
                         <motion.div
                             whileInView={{ opacity: 1, x: 0 }}
@@ -46,7 +44,7 @@ const Certifications = () => {
                             transition={{ duration: 1 }}
                             className="w-full max-w-xl lg:w-3/4"
                         >
-                            <h6 className="mb-2 font-semibold underline underline-offset-4">
+                            <h6 className="text-xs md:text-lg mb-2 font-semibold underline underline-offset-4">
                                 <a
                                     href={certificate.credential_url}
                                     target="_blank"
@@ -55,13 +53,13 @@ const Certifications = () => {
                                     {certificate.title}
                                 </a>
                             </h6>
-                            <p className="mb-4 text-neutral-400">
+                            <p className="text-xs md:text-lg mb-4 text-neutral-400">
                                 {certificate.description}
                             </p>
                             {certificate.technologies.map((tech, index) => (
                                 <span
                                     key={index}
-                                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-amber-600"
+                                    className="text-xs md:text-lg mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-amber-600"
                                 >
                                     {tech}
                                 </span>

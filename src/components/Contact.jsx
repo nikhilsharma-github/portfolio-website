@@ -12,13 +12,13 @@ const Contact = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-10 text-center text-4xl text-amber-400"
+                className="my-16 text-center text-2xl md:text-3xl lg:text-4xl text-amber-400"
             >
                 Get in Touch
             </motion.h1>
             <div className="d-flex text-center tracking-tighter">
-                <div className="d-flex justify-start space-x-6">
-                    <motion.span
+                <div className="d-flex justify-start space-x-6 text-xs md:text-lg">
+                    <motion.p
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: -100 }}
                         transition={{ duration: 1 }}
@@ -26,8 +26,8 @@ const Contact = () => {
                     >
                         <FaLocationArrow className="inline mx-2 text-blue-500" />
                         {CONTACT.address}
-                    </motion.span>
-                    <motion.span
+                    </motion.p>
+                    <motion.p
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: 100 }}
                         transition={{ duration: 1 }}
@@ -35,8 +35,8 @@ const Contact = () => {
                     >
                         <IoCall className="inline mx-2 text-green-600" />
                         {CONTACT.phoneNo}
-                    </motion.span>
-                    <motion.span
+                    </motion.p>
+                    <motion.p
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: 100 }}
                         transition={{ duration: 1 }}
@@ -44,7 +44,7 @@ const Contact = () => {
                     >
                         <SiGmail className="inline mx-2 text-red-600" />
                         {CONTACT.email}
-                    </motion.span>
+                    </motion.p>
                 </div>
             </div>
         </div>

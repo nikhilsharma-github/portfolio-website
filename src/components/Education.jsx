@@ -9,7 +9,7 @@ const Education = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-20 text-center text-4xl text-amber-400"
+                className="my-16 text-center text-2xl md:text-3xl lg:text-4xl text-amber-400"
             >
                 Education
             </motion.h2>
@@ -34,10 +34,10 @@ const Education = () => {
                             transition={{ duration: 1 }}
                             className="w-full max-w-xl lg:w-3/4"
                         >
-                            <h6 className="mb-2 font-bold">
+                            <h6 className="mb-2 font-bold text-xs md:text-lg">
                                     {education.title}
                             </h6>
-                            <h6 className="mb-2 font-extralight">
+                            <h6 className="mb-2 font-extralight text-xs md:text-lg">
                                     {education.institute_name}
                             </h6>
                         </motion.div>

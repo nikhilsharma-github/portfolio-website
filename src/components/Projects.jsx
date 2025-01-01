@@ -11,7 +11,7 @@ const Projects = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-20 text-center text-4xl text-amber-400"
+                className="my-16 text-center text-2xl md:text-3xl lg:text-4xl text-amber-400"
             >
                 Projects
             </motion.h2>
@@ -41,16 +41,16 @@ const Projects = () => {
                             transition={{ duration: 1 }}
                             className="w-full max-w-xl lg:w-2/3"
                         >
-                            <h6 className="mb-2 font-semibold">
+                            <h6 className="mb-2 font-semibold text-xs md:text-lg">
                                 {project.title}
                             </h6>
-                            <p className="mb-4 text-neutral-400">
+                            <p className="mb-4 text-neutral-400 text-xs md:text-lg">
                                 {project.description}
                             </p>
                             {project.technologies.map((tech, index) => (
                                 <span
                                     key={index}
-                                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-amber-600"
+                                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-xs md:text-lg font-medium text-amber-600"
                                 >
                                     {tech}
                                 </span>
@@ -67,7 +67,7 @@ const Projects = () => {
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        <span className="inline-flex items-center align-center mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-green-600">
+                                        <span className="inline-flex items-center align-center mr-2 rounded bg-neutral-900 px-2 py-1  font-medium text-green-600 text-xs md:text-lg">
                                             <GrDeploy className="inline mx-1" />
                                             Deployed Link
                                         </span>
@@ -79,7 +79,7 @@ const Projects = () => {
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        <span className="inline-flex items-center align-center mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-gray-400">
+                                        <span className="inline-flex items-center align-center mr-2 rounded bg-neutral-900 px-2 py-1  font-medium text-gray-400 text-xs md:text-lg">
                                             <FaGithub className="inline mx-1" />
                                             Github Link
                                         </span>

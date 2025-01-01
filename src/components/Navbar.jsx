@@ -15,13 +15,13 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="mb-20 flex justify-between py-2 md:py-4">
+        <nav className="mb-8 lg:mb-10 xl:mb-20 flex justify-between py-1 sm:py-2 md:py-4">
             <div className="flex flex-shrink-0 items-center cursor-pointer  border-b-2 border-transparent transition-all duration-300 hover:border-b-2 hover:border-amber-600 p-3 rounded-xl hover:scale-110">
                 <img className="mx-2 w-12" src={logo} alt="" />
             </div>
             <div className="m-2 md:m-4 flex items-center justify-center lg:gap-4 gap-1 text-2xl md:text-5xl">
                 <span
-                    className="custom-font-1 text-xs md:text-xl text-amber-200 border-b-2 border-transparent transition-all duration-300 hover:border-b-2 hover:border-amber-600 p-3 rounded-xl cursor-pointer hover:scale-110"
+                    className="custom-font-1 text-xs md:text-xl text-amber-200 border-b-2 border-transparent transition-all duration-300 hover:border-b-2 hover:border-amber-600 p-1 md:p-3 rounded-xl cursor-pointer hover:scale-110"
                     id="download-resume-btn"
                     onClick={handleDownload}
                 >

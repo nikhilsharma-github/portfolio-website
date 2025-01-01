@@ -12,7 +12,7 @@ const Experience = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-20 text-center text-4xl text-amber-400"
+                className="my-16 text-center text-2xl md:text-3xl lg:text-4xl text-amber-400"
             >
                 Experience
             </motion.h2>
@@ -21,7 +21,7 @@ const Experience = () => {
                 {EXPERIENCES.map((experience, index) => (
                     <div
                         key={index}
-                        className="mb-8 flex flex-wrap lg:justify-center"
+                        className="mb-20 flex flex-wrap lg:justify-center"
                     >
                         <motion.div
                             whileInView={{ opacity: 1, x: 0 }}
@@ -31,10 +31,8 @@ const Experience = () => {
                         >
                             <img
                                     src={experience.company_logo}
-                                    width={150}
-                                    height={150}
                                     alt={experience.company}
-                                    className="mb-6 rounded"
+                                    className="w-24 md:w-36 mb-6 rounded"
                             />
                             <p className="mb-2 text-md text-slate-100">
                                 <span className="">{experience.year}</span>
@@ -52,7 +50,7 @@ const Experience = () => {
                                     {experience.company}
                                 </span>
                             </h6>
-                            <ul className="mb-4 text-neutral-400">
+                            <ul className="mb-4 text-neutral-400 text-xs md:text-lg">
                                 {experience.description.map((desc, index) => (
                                     <li key={index} className="list-disc">
                                         {desc}
@@ -63,7 +61,7 @@ const Experience = () => {
                                 {experience.technologies.map((tech, index) => (
                                     <span
                                         key={index}
-                                        className="inline-flex flex-row  px-2 py-1 m-1 rounded bg-neutral-900 text-sm font-medium text-amber-600"
+                                        className="inline-flex flex-row  px-2 py-1 m-1 rounded bg-neutral-900 font-medium text-amber-600 text-xs md:text-lg"
                                     >
                                         {tech}
                                     </span>
