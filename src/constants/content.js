@@ -1,4 +1,6 @@
 import project1 from "../../public/img/project-1.jpg";
+import company1 from "../../public/img/company-1.png";
+import company2 from "../../public/img/company-2.png";
 import certificate1 from "../../public/img/certificate-1.png";
 import certificate2 from "../../public/img/certificate-2.png";
 
@@ -18,9 +20,10 @@ export const EXPERIENCES = [
             "Meanwhile, I am improving my Problem-solving skills by regularly doing LeetCode and solved 500+ problems overall on the platform and improving my development skills by creating Personal projects in other technologies like MERN Stack.",
         ],
         technologies: ["ReactJS", "JavaScript", "jQuery", "Flask", "Oracle DB", "MS SQL Server", "Python", "HTML", "CSS", "Bootstrap", "Ant Design", "Redhat OpenShift"],
+        company_logo: company1
     },
     {
-        year: "July 2022 - August 2022",
+        year: "July 2022 - Aug 2022",
         role: "Utkrisht Summer Intern",
         company: "ACM USICT",
         description: [
@@ -28,6 +31,7 @@ export const EXPERIENCES = [
             "Incorporated Features like categorizing posts according to different topics, Adding Images, and Comments below on Posts.",
         ],
         technologies: ["ReactJS", "MongoDB", "ExpressJS", "NodeJS", "MaterialUI"],
+        company_logo: company2
     },
 ];
 

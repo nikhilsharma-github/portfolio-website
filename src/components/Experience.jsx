@@ -26,6 +26,13 @@ const Experience = () => {
                             transition={{ duration: 1 }}
                             className="w-full lg:w-1/4"
                         >
+                            <img
+                                    src={experience.company_logo}
+                                    width={150}
+                                    height={150}
+                                    alt={experience.company}
+                                    className="mb-6 rounded"
+                            />
                             <p className="mb-2 text-md text-slate-100">
                                 <span className="">{experience.year}</span>
                             </p>
