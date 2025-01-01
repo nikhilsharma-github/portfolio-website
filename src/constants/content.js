@@ -1,6 +1,6 @@
-import project1 from "../../public/img/project-1.jpg";
 import company1 from "../../public/img/company-1.png";
 import company2 from "../../public/img/company-2.png";
+import project1 from "../../public/img/project-1.png";
 import certificate1 from "../../public/img/certificate-1.png";
 import certificate2 from "../../public/img/certificate-2.png";
 
@@ -76,11 +76,20 @@ export const EDUCATION = [
 
 export const PROJECTS = [
     {
-        title: "Blogging Platform",
+        title: "You2ube - Youtube Clone ",
         image: project1,
         description:
-            "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-        technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+            "Created a simple Youtube Clone UI Using ReactJS, Tailwind, Firebase",
+        technologies: [
+            "ReactJS",
+            "Tailwind",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Firebase",
+        ],
+        github_link: "https://github.com/nikhilsharma-github/You2ube",
+        deployed_link: "https://you2ube-a133c.web.app/",
     },
 ];
 

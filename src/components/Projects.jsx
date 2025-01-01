@@ -1,6 +1,8 @@
 import React from "react";
 import { PROJECTS } from "../constants/content.js";
 import { motion } from "motion/react";
+import { GrDeploy } from "react-icons/gr";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
     return (
@@ -23,12 +25,12 @@ const Projects = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 1 }}
-                            className="w-full lg:w-1/4"
+                            className="w-full lg:w-1/3"
                         >
                             <img
                                 src={project.image}
-                                width={150}
-                                height={150}
+                                width={300}
+                                height={300}
                                 alt={project.title}
                                 className="mb-6 rounded"
                             />
@@ -37,7 +39,7 @@ const Projects = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 1 }}
-                            className="w-full max-w-xl lg:w-3/4"
+                            className="w-full max-w-xl lg:w-2/3"
                         >
                             <h6 className="mb-2 font-semibold">
                                 {project.title}
@@ -53,6 +55,37 @@ const Projects = () => {
                                     {tech}
                                 </span>
                             ))}
+                            <motion.div
+                                whileInView={{ opacity: 1, x: 0 }}
+                                initial={{ opacity: 0, x: 100 }}
+                                transition={{ duration: 1 }}
+                                className="my-2"
+                            >
+                                {project.deployed_link && (
+                                    <a
+                                        href={project.deployed_link}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span className="inline-flex items-center align-center mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-green-600">
+                                            <GrDeploy className="inline mx-1" />
+                                            Deployed Link
+                                        </span>
+                                    </a>
+                                )}
+                                {project.github_link && (
+                                    <a
+                                        href={project.github_link}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span className="inline-flex items-center align-center mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-gray-400">
+                                            <FaGithub className="inline mx-1" />
+                                            Github Link
+                                        </span>
+                                    </a>
+                                )}
+                            </motion.div>
                         </motion.div>
                     </div>
                 ))}
