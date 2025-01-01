@@ -293,6 +293,17 @@ const Technologies = () => {
                 >
                     <IoLogoTableau className="tech-icon" />
                 </motion.div>
+                <motion.div
+                    variants={iconVariants(getRandomNumber(mintime, maxtime))}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-xl border-2 border-zinc-500 p-1 md:p-2"
+                >
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                        className="tech-icon-svg"
+                    />
+                </motion.div>
             </motion.div>
         </div>
     );

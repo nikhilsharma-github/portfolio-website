@@ -17,6 +17,16 @@ export const EXPERIENCES = [
         ],
         technologies: ["ReactJS", "JavaScript", "jQuery", "Flask", "Oracle DB", "MS SQL Server", "Python", "HTML", "CSS", "Bootstrap", "Ant Design", "Redhat OpenShift"],
     },
+    {
+        year: "July 2022 - August 2022",
+        role: "Utkrisht Summer Intern",
+        company: "ACM USICT",
+        description: [
+            "An Idea to Build a platform for student community discussions named UDF-USICT Discuss Forum using MERN stack.",
+            "Incorporated Features like categorizing posts according to different topics, Adding Images, and Comments below on Posts.",
+        ],
+        technologies: ["ReactJS", "MongoDB", "ExpressJS", "NodeJS", "MaterialUI"],
+    },
 ];
 
 export const PROJECTS = [
