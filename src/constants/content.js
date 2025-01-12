@@ -1,6 +1,7 @@
 import company1 from "../../public/img/company-1.png";
 import company2 from "../../public/img/company-2.png";
 import project1 from "../../public/img/project-1.png";
+import project2 from "../../public/img/project-2.png";
 import certificate1 from "../../public/img/certificate-1.png";
 import certificate2 from "../../public/img/certificate-2.png";
 
@@ -90,6 +91,23 @@ export const PROJECTS = [
         ],
         github_link: "https://github.com/nikhilsharma-github/You2ube",
         deployed_link: "https://you2ube-a133c.web.app/",
+    },
+    {
+        title: "BuddyBook - Basic CRUD Application for Storing Professional Contacts",
+        image: project2,
+        description:
+            "Basic Fullstack Web Application using the CRUD Operations for Contact Management",
+        technologies: [
+            "ReactJS",
+            "ChakraUI",
+            "Python Flask",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Render",
+        ],
+        github_link: "https://github.com/nikhilsharma-github/BuddyBook",
+        deployed_link: "https://buddybook.onrender.com/",
     },
 ];
 

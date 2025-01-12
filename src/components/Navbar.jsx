@@ -7,7 +7,7 @@ import { SiLeetcode } from "react-icons/si";
 const Navbar = () => {
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "../../public/NikhilSharma_Resume_21122024.pdf"; 
+        link.href = "../../public/NikhilSharma_Resume.pdf"; 
         link.download = "NikhilSharma_Resume.pdf"; 
         document.body.appendChild(link);
         link.click();
