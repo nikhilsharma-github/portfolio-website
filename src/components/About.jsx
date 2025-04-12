@@ -1,5 +1,4 @@
 import React from "react";
-import aboutImg from "../../public/img/AboutProfile.jpg";
 import { ABOUT_TEXT } from "../constants/content.js";
 import { motion } from "motion/react";
 
@@ -14,25 +13,11 @@ const About = () => {
             <div className="flex flex-wrap">
                 <motion.div
                 whileInView={{opacity:1, x:0}}
-                initial={{opacity:0, x:-100}}
-                transition={{duration:0.5}}
-                className="w-full lg:w-1/2 lg:p-8">
-                    <div className="flex items-center justify-center">
-                        <img
-                            className="rounded-3xl w-60 md:w-72"
-                            src={aboutImg}
-                            alt="about"
-                        />
-                    </div>
-                </motion.div>
-                <motion.div
-                whileInView={{opacity:1, x:0}}
                 initial={{opacity:0, x: 100}}
                 transition={{duration:0.5}}
-
-                className="w-full lg:w-1/2">
-                    <div className="flex justify-center lg:justify-start">
-                        <p className="text-xs sm:text-lg my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+                className="w-full">
+                    <div className="flex justify-center lg:justify-center">
+                        <p className="text-xs sm:text-lg my-2 px-12 py-6">{ABOUT_TEXT}</p>
                     </div>
                 </motion.div>
             </div>

@@ -2,6 +2,7 @@ import company1 from "../../public/img/company-1.png";
 import company2 from "../../public/img/company-2.png";
 import project1 from "../../public/img/project-1.png";
 import project2 from "../../public/img/project-2.png";
+import project3 from "../../public/img/project-3.png";
 import certificate1 from "../../public/img/certificate-1.png";
 import certificate2 from "../../public/img/certificate-2.png";
 
@@ -15,12 +16,12 @@ export const EXPERIENCES = [
         role: "System Engineer",
         company: "Tata Consultancy Services",
         description: [
-            "Aided Frontend Enhancement using ReactJS, Bootstrap, AntDesign, Tanstack Table, developing API methods, writing logic in Backend, and improvising system performance and UI ",
-            " Created API endpoints, implemented functionalities like adding a drawer with DB and frontend validations using Ant Design and Formik, and handled major UI changes.",
+            "Developed and maintained both Frontend and Backend components of Web Applications in an aglie environment, delivering web solutions within timeline while ensuring a seamless user experience and improved system performance.",
+            "Created API endpoints, implemented functionalities like adding a drawer with DB and frontend validations using Ant Design and Formik, and handled major UI changes.",
             "Developed RESTful APIs using Python and Flask, improving application performance by 40%, making existing implementations leaner, and supporting multiple concurrent users. ",
             "Achieved a 25% reduction in loading time by implementing Flask caching, DB connection threading, and session storage.",
-            " Managed deployments with RedHat OpenShift and handled version control using Bitbucket. ",
-            "Also worked on Python Data Refresh scripts using Jupyter Notebook, updating Tableau Dashboards, etc",
+            "Managed deployment, Orchestration cycles and Version Control of Applications on RedHat OpenShift and Bitbucket.",
+            "Also performed Data Analytics and Python Automation tasks using jupyter Notebook, various Python Packages, updating Tableau Dashboards for Forecasted Statistics,etc.",
             "Tech Used: ReactJS, Javascript, jQuery, Flask, Oracle DB, MS SQL Server, Python, HTML, CSS, Bootstrap, Ant Design, Redhat Openshift, etc",
         ],
         technologies: [
@@ -45,7 +46,9 @@ export const EXPERIENCES = [
         company: "ACM USICT",
         description: [
             "An Idea to Build a platform for student community discussions named UDF-USICT Discuss Forum using MERN stack.",
-            "Incorporated Features like categorizing posts according to different topics, Adding Images, and Comments below on Posts.",
+            "Incorporated technologies like MERN Stack and implemented Features like categorizing posts according to different topics, Adding Images, and Comments below on Posts.",
+            "Used MongoDB to store User Profiles and their authentication and Image Storage Express and Node.js to create Backend React.js and Material UI to develop Frontend libraries like axios multer nodemon bycrypt etc.",
+            "Here Students can register using their email ID and password. After the login, there are multiple categories based on different topics like DSA projects Academics General discussions, etc."
         ],
         technologies: [
             "ReactJS",
@@ -77,20 +80,20 @@ export const EDUCATION = [
 
 export const PROJECTS = [
     {
-        title: "You2ube - Youtube Clone ",
+        title: "ShopSwap - An Ecommerce Marketplace",
         image: project1,
         description:
-            "Created a simple Youtube Clone UI Using ReactJS, Tailwind, Firebase",
+            "A Fullstack Based ECommerece Web Application. Added User Authentication and Registration, Listed Products with Dynamic sell and Buy Options. It utilizes WTF Forms for user input, Bootstrap for UI design, deployed on PythonAnywhere.",
         technologies: [
-            "ReactJS",
-            "Tailwind",
+            "Python Flask",
+            "Bootstrap",
             "HTML",
             "CSS",
-            "Javascript",
-            "Firebase",
+            "Flask WTF Forms",
+            "PythonAnywhere",
         ],
-        github_link: "https://github.com/nikhilsharma-github/You2ube",
-        deployed_link: "https://you2ube-a133c.web.app/",
+        github_link: "https://github.com/nikhilsharma-github/ShopSwap",
+        deployed_link: "https://nikhilsharmapa.pythonanywhere.com/",
     },
     {
         title: "BuddyBook - Basic CRUD Application for Storing Professional Contacts",
@@ -108,6 +111,22 @@ export const PROJECTS = [
         ],
         github_link: "https://github.com/nikhilsharma-github/BuddyBook",
         deployed_link: "https://buddybook.onrender.com/",
+    },
+    {
+        title: "You2ube - Youtube Clone ",
+        image: project3,
+        description:
+            "Created a simple Youtube Clone UI Using ReactJS, Tailwind, Firebase",
+        technologies: [
+            "ReactJS",
+            "Tailwind",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Firebase",
+        ],
+        github_link: "https://github.com/nikhilsharma-github/You2ube",
+        deployed_link: "https://you2ube-a133c.web.app/",
     },
 ];
 
