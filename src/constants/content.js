@@ -3,10 +3,12 @@ import company2 from "../../public/img/company-2.png";
 import project1 from "../../public/img/project-1.png";
 import project2 from "../../public/img/project-2.png";
 import project3 from "../../public/img/project-3.png";
+import project4 from "../../public/img/project-4.png";
 import certificate1 from "../../public/img/certificate-1.png";
 import certificate2 from "../../public/img/certificate-2.png";
+import certificate3 from "../../public/img/certificate-3.png";
 
-export const HERO_CONTENT = `I am a passionate Full stack developer currently working in TCS Digital from past 1 year.`;
+export const HERO_CONTENT = `I am a passionate Full stack developer currently working in TCS Digital from past 1.5 year.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1 year of professional experience, I have worked with a variety of technologies, including ReactJS, JavaScript, jQuery, Flask, Oracle DB, MS SQL Server, Python, HTML, CSS, Bootstrap, Ant Design, Redhat OpenShift, etc. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and solving DSA Problems.`;
 
@@ -48,7 +50,7 @@ export const EXPERIENCES = [
             "An Idea to Build a platform for student community discussions named UDF-USICT Discuss Forum using MERN stack.",
             "Incorporated technologies like MERN Stack and implemented Features like categorizing posts according to different topics, Adding Images, and Comments below on Posts.",
             "Used MongoDB to store User Profiles and their authentication and Image Storage Express and Node.js to create Backend React.js and Material UI to develop Frontend libraries like axios multer nodemon bycrypt etc.",
-            "Here Students can register using their email ID and password. After the login, there are multiple categories based on different topics like DSA projects Academics General discussions, etc."
+            "Here Students can register using their email ID and password. After the login, there are multiple categories based on different topics like DSA projects Academics General discussions, etc.",
         ],
         technologies: [
             "ReactJS",
@@ -80,8 +82,31 @@ export const EDUCATION = [
 
 export const PROJECTS = [
     {
-        title: "ShopSwap - An Ecommerce Marketplace",
+        title: " MicroBlog- A Flask Powered Social Blogging App",
         image: project1,
+        description:
+            "Built a feature-rich social blogging app with login and signup support, multilingual posts, real-time messaging with notifications, andsecurepasswordresetvia emailusing JWTandFlask-MailService.  Implemented secure password reset using JWT,modular architecture with Blueprints, and translation with API integration.",
+        technologies: [
+            "Python Flask",
+            "SQLAlchemy",
+            "Jinja2",
+            "WTForms",
+            "JWT",
+            "Flask-Mail",
+            "AJAX",
+            "Bootstrap",
+            "HTML",
+            "CSS",
+            "Brevo SMTP",
+            "Flask Babel",
+            "PythonAnywhere",
+        ],
+        github_link: "https://github.com/nikhilsharma-github/MicroBlog",
+        deployed_link: "https://nikhilsharmapa2.pythonanywhere.com/",
+    },
+    {
+        title: "ShopSwap - An Ecommerce Marketplace",
+        image: project2,
         description:
             "A Fullstack Based ECommerece Web Application. Added User Authentication and Registration, Listed Products with Dynamic sell and Buy Options. It utilizes WTF Forms for user input, Bootstrap for UI design, deployed on PythonAnywhere.",
         technologies: [
@@ -97,7 +122,7 @@ export const PROJECTS = [
     },
     {
         title: "BuddyBook - Basic CRUD Application for Storing Professional Contacts",
-        image: project2,
+        image: project3,
         description:
             "Basic Fullstack Web Application using the CRUD Operations for Contact Management",
         technologies: [
@@ -114,7 +139,7 @@ export const PROJECTS = [
     },
     {
         title: "You2ube - Youtube Clone ",
-        image: project3,
+        image: project4,
         description:
             "Created a simple Youtube Clone UI Using ReactJS, Tailwind, Firebase",
         technologies: [
@@ -152,6 +177,16 @@ export const CERTIFICATIONS = [
         credential_url:
             "https://www.edureka.co/lms/certificate/cce3864db1e5fa0de5f0c80a7684453c",
         credential_id: "GMXB7D8MB",
+    },
+    {
+        title: "Problem Solving (Basic) Certificate",
+        image: certificate3,
+        description:
+            "A DSA Certification by Hackerrank, It covers basic topics of Data Structures (such as Arrays, Strings, Hashing, etc) and Algorithms (such as Sorting and Searching).",
+        technologies: ["Data Structures", "Algorithms", "C++"],
+        date: "May 2025",
+        credential_url: "https://www.hackerrank.com/certificates/12bf1dae7c3e",
+        credential_id: "12bf1dae7c3e",
     },
 ];
 
