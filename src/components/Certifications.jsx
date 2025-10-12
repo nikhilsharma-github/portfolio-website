@@ -59,7 +59,7 @@ const Certifications = () => {
                             {certificate.technologies.map((tech, index) => (
                                 <span
                                     key={index}
-                                    className="text-xs md:text-lg mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-amber-600"
+                                    className="text-xs md:text-lg mr-2 rounded bg-neutral-900 px-2 py-1 sm:text-sm font-medium text-amber-600"
                                 >
                                     {tech}
                                 </span>
