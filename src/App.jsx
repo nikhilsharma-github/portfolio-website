@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Certifications from "./components/Certifications";
 import Education from "./components/Education";
+import ResumeViewer from "./components/ResumeViewer";
 
 const App = () => {
     return (
@@ -24,6 +25,7 @@ const App = () => {
                 <Education></Education>
                 <Projects></Projects>
                 <Certifications></Certifications>
+                <ResumeViewer></ResumeViewer>
                 <Contact></Contact>
             </div>
         </div>
