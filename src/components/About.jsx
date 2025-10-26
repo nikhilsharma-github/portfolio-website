@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 const About = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div id="about" className="border-b border-neutral-900 pb-4 scroll-mt-40">
             <h1 className="my-16 text-center text-2xl md:text-3xl lg:text-4xl text-amber-400">
                 About
                 <span className="text-slate-200">Me</span>

@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div id="projects" className="border-b border-neutral-900 pb-4 scroll-mt-20">
             <motion.h2
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}

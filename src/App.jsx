@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Certifications from "./components/Certifications";
 import Education from "./components/Education";
 import ResumeViewer from "./components/ResumeViewer";
+import BottomNav from "./components/BottomNav";
 
 const App = () => {
     return (
@@ -27,6 +28,7 @@ const App = () => {
                 <Certifications></Certifications>
                 <ResumeViewer></ResumeViewer>
                 <Contact></Contact>
+                <BottomNav></BottomNav>
             </div>
         </div>
     );

@@ -15,7 +15,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="mb-8 lg:mb-10 xl:mb-20 flex justify-between py-1 sm:py-2 md:py-4">
+        <nav id="home" className="mb-8 lg:mb-10 xl:mb-20 flex justify-between py-1 sm:py-2 md:py-4">
             <div className="flex flex-shrink-0 items-center cursor-pointer  border-b-2 border-transparent transition-all duration-300 hover:border-b-2 hover:border-amber-600 p-3 rounded-xl hover:scale-110">
                 <img className="mx-2 w-12" src={logo} alt="" />
             </div>

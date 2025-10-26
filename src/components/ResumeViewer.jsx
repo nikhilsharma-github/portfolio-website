@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/Page/TextLayer.css";
 import "react-pdf/dist/Page/AnnotationLayer.css";
+import { LuZoomIn, LuZoomOut } from "react-icons/lu";
 
 // Use a relative path for the worker
 pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.mjs";
@@ -25,7 +26,13 @@ const ResumeViewer = () => {
     }
 
     return (
-        <div className="border-b border-neutral-900 pb-4 min-h-96">
+        <div
+            id="resume"
+            className="border-b border-neutral-900 pb-4 min-h-96 scroll-mt-20"
+        >
+            <h1 className="my-16 text-center text-2xl md:text-3xl lg:text-4xl text-amber-400">
+                Resume
+            </h1>
             <div className="flex flex-wrap justify-center mb-4 gap-2">
                 {pdfFiles.map((pdf, idx) => (
                     <button
@@ -44,20 +51,20 @@ const ResumeViewer = () => {
             <div className="flex justify-center mb-4 gap-2">
                 <button
                     onClick={() => setScale(scale + 0.2)}
-                    className="sm:text-sm md:text-lg mr-2 rounded  px-2 py-1 text-xs font-medium bg-teal-700"
+                    className="sm:text-sm md:text-lg mr-2 rounded  px-2 py-1 text-xs font-medium bg-orange-700"
                 >
-                    Zoom In
+                    <LuZoomIn />
                 </button>
                 <button
                     onClick={() => setScale(scale - 0.2)}
-                    className="sm:text-sm md:text-lg mr-2 rounded  px-2 py-1 text-xs font-medium bg-fuchsia-900 "
+                    className="sm:text-sm md:text-lg mr-2 rounded  px-2 py-1 text-xs font-medium bg-yellow-600 "
                 >
-                    Zoom Out
+                    <LuZoomOut />
                 </button>
             </div>
             <div className="flex justify-center">
                 <Document
-                    file={"/pdfs"+selectedPdf}
+                    file={"/pdfs" + selectedPdf}
                     onLoadSuccess={onDocumentLoadSuccess}
                 >
                     <div className="block md:hidden">

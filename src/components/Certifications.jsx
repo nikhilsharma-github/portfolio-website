@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 const Certifications = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div id="certifications" className="border-b border-neutral-900 pb-4 scroll-mt-20">
             <motion.h2
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}

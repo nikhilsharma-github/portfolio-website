@@ -7,7 +7,7 @@ const companyNameCSS=["text-lg bg-gradient-to-r from-amber-600 via-red-500 to bg
 
 const Experience = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div id="experience" className="border-b border-neutral-900 pb-4 scroll-mt-20">
             <motion.h2
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
