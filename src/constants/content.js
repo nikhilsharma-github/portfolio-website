@@ -8,9 +8,9 @@ import certificate1 from "../../public/img/certificate-1.png";
 import certificate2 from "../../public/img/certificate-2.png";
 import certificate3 from "../../public/img/certificate-3.png";
 
-export const HERO_CONTENT = `I am a passionate Full stack developer currently working in TCS Digital from past 1.5 year.`;
+export const HERO_CONTENT = `I am a passionate Full stack developer currently working in TCS Digital from past 2 years.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1 year of professional experience, I have worked with a variety of technologies, including ReactJS, JavaScript, jQuery, Flask, Oracle DB, MS SQL Server, Python, HTML, CSS, Bootstrap, Ant Design, Redhat OpenShift, etc. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and solving DSA Problems.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including ReactJS, JavaScript, jQuery, Flask, Oracle DB, MS SQL Server, Python, HTML, CSS, Bootstrap, Ant Design, Redhat OpenShift, etc. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and solving DSA Problems.`;
 
 export const EXPERIENCES = [
     {
