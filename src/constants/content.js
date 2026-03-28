@@ -10,7 +10,7 @@ import certificate3 from "../../public/img/certificate-3.png";
 
 export const HERO_CONTENT = `I am a passionate Full stack developer currently working in TCS Digital from past 2 years.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including ReactJS, JavaScript, jQuery, Flask, Oracle DB, MS SQL Server, Python, HTML, CSS, Bootstrap, Ant Design, Redhat OpenShift, etc. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and solving DSA Problems.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including ReactJS, JavaScript, jQuery, Django, Flask, FastAPI, Oracle DB, MS SQL Server, Python, HTML, CSS, Bootstrap, Ant Design, Redhat OpenShift, etc. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and solving DSA Problems.`;
 
 export const EXPERIENCES = [
     {
@@ -19,18 +19,23 @@ export const EXPERIENCES = [
         company: "Tata Consultancy Services",
         description: [
             "Developed and maintained both Frontend and Backend components of Web Applications in an aglie environment, delivering web solutions within timeline while ensuring a seamless user experience and improved system performance.",
-            "Created API endpoints, implemented functionalities like adding a drawer with DB and frontend validations using Ant Design and Formik, and handled major UI changes.",
-            "Developed RESTful APIs using Python and Flask, improving application performance by 40%, making existing implementations leaner, and supporting multiple concurrent users. ",
-            "Achieved a 25% reduction in loading time by implementing Flask caching, DB connection threading, and session storage.",
+            "Implemented RESTful API methods in Django, Flask and FastAPI, optimizing backend logic and enhancing application efficiency.",
+            "Developed API endpoints and integrated functionalities such as a dynamic drawer and multipage wizard form with database connectivity, along with robust frontend and backend validations using React Hook Forms, Formik, AG Grid and Ant Design.",
+            "Streamlined CRUD operations using Formik and Tanstack Table, ensuring efficient data management and state handling.",
+            "Debugged and resolved performance bottlenecks, enhancing the overall speed and responsiveness of the platform.",
+            "Achieved a 10% reduction in loading time by implementing Flask caching, DB connection threading, and session storage.",
             "Managed deployment, Orchestration cycles and Version Control of Applications on RedHat OpenShift and Bitbucket.",
-            "Also performed Data Analytics and Python Automation tasks using jupyter Notebook, various Python Packages, updating Tableau Dashboards for Forecasted Statistics,etc.",
-            "Tech Used: ReactJS, Javascript, jQuery, Flask, Oracle DB, MS SQL Server, Python, HTML, CSS, Bootstrap, Ant Design, Redhat Openshift, etc",
+            "Also performed Data Analytics and Python Automation tasks using jupyter Notebook, various Python Packages , updating Tableau Dashboards for Forecasted Statistics, etc",
+            "Tech Used: ReactJS, Javascript, jQuery, Django, Flask, FastAPI, Streamlit, Oracle DB, MS SQL Server, Python, HTML, CSS, Bootstrap, Ant Design, Redhat Openshift, Swagger, jupyterNotebook etc",
         ],
         technologies: [
             "ReactJS",
             "JavaScript",
             "jQuery",
+            "Django",
             "Flask",
+            "FastAPI",
+            "Streamlit",
             "Oracle DB",
             "MS SQL Server",
             "Python",
@@ -39,6 +44,9 @@ export const EXPERIENCES = [
             "Bootstrap",
             "Ant Design",
             "Redhat OpenShift",
+            "Swagger",
+            "Tableau",
+            "ElasticSearch"
         ],
         company_logo: company1,
     },
@@ -191,7 +199,6 @@ export const CERTIFICATIONS = [
 ];
 
 export const CONTACT = {
-    address: "North West Delhi, India",
-    phoneNo: "+91-8929004546",
+    address: "North Delhi, India",
     email: "nikhilsharma.csgeek@gmail.com",
 };

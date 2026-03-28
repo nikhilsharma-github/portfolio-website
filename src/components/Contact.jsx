@@ -33,15 +33,6 @@ const Contact = () => {
                         transition={{ duration: 1 }}
                         className="my-4"
                     >
-                        <IoCall className="inline mx-2 text-green-600" />
-                        {CONTACT.phoneNo}
-                    </motion.p>
-                    <motion.p
-                        whileInView={{ opacity: 1, x: 0 }}
-                        initial={{ opacity: 0, x: 100 }}
-                        transition={{ duration: 1 }}
-                        className="my-4"
-                    >
                         <SiGmail className="inline mx-2 text-red-600" />
                         {CONTACT.email}
                     </motion.p>
